@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="565.0" prefWidth="688.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="268.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="USER PROFILE" textAlignment="CENTER">
+         <font>
+            <Font name="Poppins Bold" size="23.0" />
+         </font>
+      </Text>
+      <Label fx:id="nameLabel" contentDisplay="CENTER" graphicTextGap="8.0" layoutX="221.0" layoutY="262.0" prefHeight="32.0" prefWidth="246.0" style="-fx-background-color: #003499;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Poppins Regular" size="13.0" />
+         </font>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <padding>
+            <Insets left="15.0" right="15.0" />
+         </padding>
+      </Label>
+      <Label fx:id="emailLabel" graphicTextGap="8.0" layoutX="221.0" layoutY="304.0" prefHeight="32.0" prefWidth="246.0" style="-fx-background-color: #003499;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Poppins Regular" size="13.0" />
+         </font>
+         <padding>
+            <Insets left="15.0" right="15.0" />
+         </padding>
+      </Label>
+      <Label fx:id="birthdateLabel" graphicTextGap="8.0" layoutX="221.0" layoutY="346.0" prefHeight="32.0" prefWidth="246.0" style="-fx-background-color: #003499;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Poppins Regular" size="13.0" />
+         </font>
+         <padding>
+            <Insets left="15.0" right="15.0" />
+         </padding>
+      </Label>
+      <Label fx:id="genderLabel" graphicTextGap="8.0" layoutX="221.0" layoutY="388.0" prefHeight="32.0" prefWidth="246.0" style="-fx-background-color: #003499;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Poppins Regular" size="13.0" />
+         </font>
+         <padding>
+            <Insets left="15.0" right="15.0" />
+         </padding>
+      </Label>
+      <Label fx:id="cityLabel" graphicTextGap="8.0" layoutX="221.0" layoutY="430.0" prefHeight="32.0" prefWidth="246.0" style="-fx-background-color: #003499;" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Poppins Regular" size="13.0" />
+         </font>
+         <padding>
+            <Insets left="15.0" right="15.0" />
+         </padding>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="269.0" layoutY="47.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Samiul%20Hafiz.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
